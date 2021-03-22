@@ -1,0 +1,5 @@
+Variables: a algo, que puede usarse o mencionarse mas adelante
+String: Son las palabras, y siempre iran entre comillas.
+funciones: calculan un conjunto de variables, a estas variables se le asignan argumentos
+return: es una variable que sirve para sacar algo de una funciones
+Valores booleanos: son dos valores, uno verdadero y otro falso, se usa cuando debemos hacer una comparacion y especificar cuando una funcion es verdadera o noEs una forma de darle valor 
