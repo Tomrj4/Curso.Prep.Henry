@@ -159,13 +159,14 @@ function todosIguales(arreglo) {
   //Escriba la función todosIguales, que indique si todos los elementos de un arreglo son iguales:
   //retornar true, caso contrario retornar false.
   //Escribe tu código aquí  
-  for (var i =0 ; i < arreglo.length - 1; i++) {
-    if(arreglo[i] !== arreglo[i+1]){
-      return false
+  let comparar = arreglo[0];
+  for (let i = 1; i < arreglo.length; i++) {
+    if (comparar !== arreglo[i]) {
+      return false;
     }
   }
-  return true
-} 
+  return true;
+}
 todosIguales (4, 8, 9)
 
 
@@ -215,18 +216,14 @@ function breakStatement(numero) {
   var suma = numero;
   for(var i= 0; i<10; i++) {
     suma = suma + 2;
-    if(suma === i) break;
+    if(suma === i) return "Se interrumpió la ejecución";
     else {
       array.push(suma);
     }
   }
-  if(i < 10) {
-    return 'Se interrumpió la ejecución';
+   return array;
   }
-  else {
-      return array;
-  }
-}
+
 breakStatement (54)
 
 function continueStatement(numero) {

@@ -1,0 +1,22 @@
+body {
+    background-image: url("./fondo2.jpg");
+}
+#spanId {
+    margin: 50px;
+    font-size: 18px;
+}
+#thirdDiv {
+    border: 15px solid brown;
+    padding: 50px;
+    background-color: pink;
+} 
+.divClass {
+    color : brown;
+}
+.Vertical {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 600px;
+}
